@@ -1,0 +1,28 @@
+# 의존성
+node_modules/
+
+# 환경변수 (API 키 포함 - 절대 깃에 올리지 말 것)
+.env
+.env.local
+.env.*.local
+
+# 로그
+*.log
+npm-debug.log*
+logs/
+
+# 빌드 산출물
+dist/
+build/
+*.tsbuildinfo
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 임시 데이터
+data/
+*.tmp
+*.swp
